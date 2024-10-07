@@ -52,9 +52,6 @@ While the current implementation doesn't fully exploit the potential of token-le
 
 ### Installation
 
-Intially training run on [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/ashutoshtiwari13/RL-Symbolic-Feedback/blob/main/src/scratch-work/final_rlsf_implementation.ipynb)
-
-
 Note: The code uses modified parts of the [Huggingface TRL library](https://github.com/huggingface/trl), adding support for vector feedbacks.
 
 1. Clone the repository:
@@ -79,6 +76,7 @@ Note: The code uses modified parts of the [Huggingface TRL library](https://gith
    wandb login
    ```
 
+
 ### Running the Training Script
 
 To start the training process, you can use the following command:
@@ -92,7 +90,9 @@ Command-line arguments:
 - `--accumulation_steps`: Number of gradient accumulation steps (default: 4)
 - `--eval_samples`: Number of samples to use for evaluation (default: 1000)
 
-You can adjust these parameters as needed for your specific use case.
+
+Initially training done on [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/ashutoshtiwari13/RL-Symbolic-Feedback/blob/main/src/scratch-work/final_rlsf_implementation.ipynb)
+
 
 ## Intial Results
 
