@@ -1,6 +1,6 @@
 # Reinforcment leanring via symbolic feedback 
 
-#### (This project is a Work in Progress, and needs code optimization test on various usecases and benchmarks)
+#### (This project is a Work in Progress, and needs code optimization & tests for various usecases and benchmarks)
 
 ## Research Question
 How can we enhance the reasoning capabilities of Large Language Models (LLMs) by integrating them with symbolic reasoning systems and incorporating corrective feedback loops? 
