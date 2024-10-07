@@ -89,7 +89,15 @@ Command-line arguments:
 
 You can adjust these parameters as needed for your specific use case.
 
-## Project Structure Review
+## Intial Results
+
+<p align="center">
+  <img src="./src/doc/rl-symbolic.png" alt="Image 1" width="30%" />
+  <img src="./src/doc/standard.png" alt="Image 2" width="30%" />
+  <img src="./src/doc/standard-2.png" alt="Image 3" width="30%" />
+</p>
+
+## Project Structure
 
 ```
 rlsf-sentiment-analysis/
