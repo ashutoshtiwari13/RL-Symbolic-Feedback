@@ -63,7 +63,7 @@ Note: The code uses modified parts of the [Huggingface TRL library](https://gith
 2. Create a virtual environment and activate it:
    ```
    python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   source venv/bin/activate
    ```
 
 3. Install the project in editable mode:
@@ -124,9 +124,6 @@ rlsf-sentiment-analysis/
 │
 ├── scripts/
 │   └── train.py                  # Main training script
-│
-├── tests/
-│   └── ...                       # Unit tests
 │
 ├── requirements.txt              # Project dependencies
 ├── setup.py                      # Project setup file
