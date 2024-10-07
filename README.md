@@ -16,9 +16,9 @@ These limitations creates a need for methods that can combine the strengths of L
 ## Implementation Memo
 This project aims to implement a new fine-tuning method which uses the prowess of "Symbolic AI" systems to enhance the reasoning capabilties in tradiitonal LLM models for a specific usecase of detecting positive sentiments in the IMDB dataset for movie reviews.
 
-RL agent : LLM that needs fine-tuning
-Environment (is the symbolic component) : Has the reasoning capabilties of to reasoning, domain knowledge, knwoledge graph tools
-and a unqiue *token-level* reward signal (vector "feedback").
+- RL agent : LLM that needs fine-tuning
+- Environment (is the symbolic component): Has the reasoning capabilties of to reasoning, domain knowledge, knwoledge graph tools
+- A unqiue *token-level* reward signal (vector "feedback").
 
 More on reward signal and the ultimate goal : 
 This system implements a fined-graine *token-level* reward model (which is unique to the one currently with scalar "feedback")as-
