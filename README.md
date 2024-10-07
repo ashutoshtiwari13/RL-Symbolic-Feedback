@@ -52,9 +52,11 @@ While the current implementation doesn't fully exploit the potential of token-le
 
 ### Installation
 
+Note: The code uses modified parts of the [Huggingface TRL library](https://github.com/huggingface/trl), adding support for vector feedbacks.
+
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/rlsf-sentiment-analysis.git
+   git clone https://github.com/ashutoshtiwari13/RL-Symbolic-Feedback.git
    cd rlsf-sentiment-analysis
    ```
 
