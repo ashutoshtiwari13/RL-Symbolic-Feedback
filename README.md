@@ -1,4 +1,4 @@
-# Reinforcment leanring via symbolic feedback 
+# Reinforcement learning via symbolic feedback 
 
 Project Writeup on my Substack blog [Here](https://ashutoshkumartiwari.substack.com/p/adding-token-level-symbolic-vector)
 
@@ -122,7 +122,7 @@ rlsf-sentiment-analysis/
 │   │   └── model.py              # Model definitions and operations
 │   ├── training/
 │   │   ├── __init__.py
-│   │   ├── rlsf_trainer.py       # RLSF training logic
+│   │   ├── rlsf_trainer.py       # training logic
 │   │   ├── standard_trainer.py   # Standard training logic
 │   │   └── utils.py              # Utility functions for training
 │   └── environment/
