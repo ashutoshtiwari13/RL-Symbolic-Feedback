@@ -1,5 +1,7 @@
 # Reinforcment leanring via symbolic feedback 
 
+Project Writeup on my Substack blog [Here](https://ashutoshkumartiwari.substack.com/p/adding-token-level-symbolic-vector)
+
 #### (This project is a Work in Progress, and needs code optimization & tests for various usecases and benchmarks)
 
 ## Research Question
