@@ -6,12 +6,14 @@
 How can we enhance the reasoning capabilities of Large Language Models (LLMs) by integrating them with symbolic reasoning systems and incorporating corrective feedback loops? 
 
 ## Problem 
-Recent AI advancements has proved that the logical reasining capabilties of contemprory LLMs are, at best *fragmentary*. (may work well on some problem instances but fail dramatically on others). While traditional LLMs fine-tuning approaches (via human feedback) do address this problem to some degree, they suffer from many issues like --- 
+Recent AI advancements has proved that the logical reasoning capabilties of contemporary LLMs are, at best *fragmentary*. (may work well on some problem instances but fail dramatically on others). While traditional LLMs fine-tuning approaches (via human feedback) do address this problem to some degree, they suffer from many issues like --- 
 - "Black-box" reward models  
 - Difficulties in collecting preference data (from replay buffer/memory)
 - Sparse scalar values
 
 These limitations creates a need for methods that can combine the strengths of LLMs with those of symbolic reasoning systems (Knowledge graphs, contraint solvers etc.) to create more robust and capable AI systems. The challenge is the integration of these two approaches to leverage their respective strengths while addressing the limitations of current fine-tuning methods like RLHF which are at best expensive, error-prone, and may not fully capture the nuances of reasoning tasks.
+
+More project detials [here](https://ashutoshkumartiwari.substack.com/p/adding-token-level-symbolic-vector)
 
 ## Implementation Memo
 This project aims to implement a new fine-tuning method which uses the prowess of "Symbolic AI" systems to enhance the reasoning capabilties in tradiitonal LLM models for a specific usecase of detecting positive sentiments in the IMDB dataset for movie reviews.
