@@ -61,7 +61,7 @@ Note: The code uses modified parts of the [Huggingface TRL library](https://gith
 1. Clone the repository:
    ```
    git clone https://github.com/ashutoshtiwari13/RL-Symbolic-Feedback.git
-   cd rlsf-sentiment-analysis
+   cd rl-symbolic-feedback
    ```
 
 2. Create a virtual environment and activate it:
